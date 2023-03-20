@@ -390,7 +390,7 @@ h3 {
 p {
   font-family: "Work Sans", sans-serif;
   font-size: 0.9rem;
-  letter-spacing: 0.352px;
+  letter-spacing: 0.04px;
   color: #2B2A2B;
 }
 
@@ -634,6 +634,9 @@ header .wrapper {
     margin-top: 50px;
     text-align: left;
   }
+  .tech-stack img {
+    display: none;
+  }
   .one, .two {
     display: none;
   }
@@ -650,6 +653,10 @@ header .wrapper {
   }
   .intro {
     z-index: 2;
+  }
+  .intro img {
+    z-index: 0;
+    right: 0;
   }
   .intro p {
     font-size: 3rem;

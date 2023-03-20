@@ -39,6 +39,11 @@
         }
 
     }
+    .tech-stack{
+        img{
+            display: none;
+        }
+    }
 
    .one,.two{
     display: none;
@@ -59,6 +64,10 @@
 
     .intro{
         z-index: 2; 
+        img{
+            z-index: 0;
+            right: 0;
+        }
 
         p{
             font-size: 3rem;
