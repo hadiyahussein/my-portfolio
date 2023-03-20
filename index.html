@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/h.svg">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans:ital,wght@0,400;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7bdc0cfdad.js" crossorigin="anonymous"></script>
+    <title>Hadiya</title>  
+</head>
+
+    <body>
+        <header>
+            <div class="navbar-container">
+                <div class="wrapper">
+                    <div class="navbar">
+                        <div class="logo">
+                            <img  class="logo" src="./assets/h.svg" alt=" 3 circles connecting in the middle.">
+                        </div>
+
+                        <div class="socials">
+                            <a href="#portfolio">PORTFOLIO</a>
+                            <a href="http://">RESUME</a>
+                        </div>
+                    </div>  
+                </div>  
+            </div>
+            
+            <div class="wrapper">
+                <div class="intro">
+                    <img src="./assets/img.png" alt="decorative gradient blurry circle">
+                    <p class="hidden">FRONT-END DEVELOPMENT & <p class="blur-hidden" class="hidden">CREATIVE</p>     
+                    <p class="hidden">DESIGN</p>
+                </div>
+            </div>
+            
+        </header>
+
+        
+        <div class="wrapper">
+            <section class="about">
+                <h2>A LITTLE BIT ABOUT MYSELF</h2>
+                <div class="about-text">
+                    <img class="gif hidden" src="./assets/about.gif" alt="A women using her computer.">
+                    <p>Hello there! I'm Hadiya, a front-end developer based in Toronto, Canada.  <br> <br> I graduated from Juno College, where I honed my skills in web development. I am constantly on the lookout for new mediums through which I can express my creativity. <br> <br>My passion is in web development, where I utilize my artistic capabilities and technical skills to build engaging and immersive experiences for users.  In my off time, I relax by drinking matcha or mindlessly scrolling through Pinterest.</p>
+                </div>
+
+                <div class="tech-stack hidden">
+
+                    <div class="tech-stack-header">
+                        <h3>.......TECH</h3>
+                        <img src="./assets/stack.svg" alt="The word stack">
+                    </div>
+                    
+                    
+                    <ul class="tech-stack-icons">
+                        <li><i class="fa-brands fa-css3-alt"></i></li>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                        <li><i class="fa-brands fa-js"></i></li>
+                        <li><i class="fa-brands fa-react"></i></li>
+                        <li><i class="fa-brands fa-sass"></i></li>
+
+                        <li><img src="./assets/icons/Firebase.svg" alt="Firebase logo."></li>
+                        <li><i class="fa-brands fa-figma"></i></li>
+                        <li><img src="./assets/icons/adobe.svg" alt="Adobe logo."></li>
+                        <li><i class="fa-brands fa-git-alt"></i></li>
+                        
+                    </ul>
+                </div>
+            </section>
+        </div>
+            
+
+
+
+
+        <div class="wrapper">
+
+            <div class="portfolio hidden" id="portfolio">
+            
+                <h2>PORTFOLIO</h2>
+
+                <div class="portfolio-planted">
+
+                    <p class="number one">01</p>
+                    <img src="./assets/project1.png" alt="Macbook and iphone screen displaying a website">
+                    
+                    <div class="portfolio-text portfolio-planted-text">
+                        <h3>PLANTED NVITITATION</h3>
+                        <h4>Functional Website </h4>
+                        <p>Brought designer’s vision to life with a fully-functional website using HTML and CSS techniques. Provide a good experience forthe site's users across multiple devices and screen sizes</p>
+                        <a href="https://hadiyaproject1.netlify.app/" >Live Site</a>
+                        <span>|</span>
+                        <a href="https://github.com/hadiyahussein/Project01">Github</a>
+                    </div>
+
+                </div>
+            </div>
+
+            
+            <div class="portfolio-matcha hidden">      
+
+                <p class="number two">02</p>
+
+                <img src="./assets/109.png" alt="a matching card game">
+
+                <div class="portfolio-text portfolio-matcha-text">
+                    <h3>MATCHa</h3>
+                    <h4>Memory Game</h4>
+                    <p>MATCHa is a matching game using Firebase API for real-time database integration, JavaScript for game logic, DOM manipulation and UI design for an engaging user experience.</p>
+                    <a href="https://incredible-strudel-3e8f44.netlify.app/" >Live Site</a>
+                    <span>|</span>
+                    <a href="https://github.com/hadiyahussein/MATCHa">Github</a>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <section class="contact">
+            <div class="wrapper">
+                 <h2>CONTACT ME</h2>
+                <img class="hidden" src="./assets/img2.png" alt="blurry gradient circle">
+                <img class="hidden" src="./assets/callme.png" alt="call me,beep me if you wanna reach me">
+    
+                <div class="form-container ">
+
+                    <form action  name="contact-form" class="form" action="https://formspree.io/f/xpzejwje" method="POST">
+                        <label class="sr-only" for="name"></label>
+                        <input type="name" name="name" id="name" placeholder="Name" >
+
+                        <label class="sr-only" for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email" >
+
+                        <label class="sr-only" for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Message" rows="6" cols="55"></textarea> 
+                        
+                        <button type="submit">Send</button>
+                    </form>
+                   
+                </div>
+                <ul class="contact-icon">
+                    <li><a href="https://ca.linkedin.com/in/hadiya-hussein-31b066192"><i class="fa-brands fa-linkedin-in"></i><span class="sr-only">LinkedIn</span</a></li>
+                    <li><a href="https://github.com/hadiyahussein"><i class="fa-brands fa-github"></i><span class="sr-only">LinkedIn</span</a></li>
+                  </ul>
+                  
+            </div>   
+        </section>
+    
+    
+    <script src="./app.js"></script>
+
+    </body>
+</html>

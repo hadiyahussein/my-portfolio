@@ -1,0 +1,52 @@
+@use './variables' as *;
+
+
+header {
+    height: 700px;
+    .wrapper{
+        border-right: solid $primarycolor 1px;
+        border-left: solid $primarycolor 1px; 
+    }
+}
+    
+.navbar-container{
+    border-bottom: solid $primarycolor 1px;
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        height: 30px;
+        line-height: 30px;
+
+        .logo{
+            width: 15%;
+        }
+
+        a{
+           margin-right: 5px;
+        }
+    }
+}
+
+.intro{
+    margin-top: 40px;
+    padding-top: 40px;
+    align-self: center;
+    position: relative;
+    
+   img{
+    position: absolute;
+    z-index: 1;
+    right: -120px;
+   }
+
+    h2{
+        text-align: right;
+        position: relative;
+        z-index: 2; 
+    }
+
+    p{
+        padding:0px 100px ;
+    }
+}

@@ -1,0 +1,79 @@
+@media (max-width: 900px){
+    html{
+        font-size: 100%;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+    header{
+        height: auto;
+    }
+    .about-text{
+        .gif{
+            width: 0;
+            height: 0;
+        }
+        gap:0;
+
+    }
+    .about{
+        margin: 0px;
+    }
+
+    .portfolio-planted{
+        flex-direction: column;
+        margin-left:0 ;
+        padding: 0px;
+        .portfolio-planted-text{
+            margin-left: 50px;
+        }
+
+    }
+
+    .portfolio-matcha{
+        flex-direction: column;
+        margin-right: 0px;
+        .portfolio-matcha-text{
+            margin-left: 50px;
+            margin-top: 50px;
+            text-align: left;
+        }
+
+    }
+
+   .one,.two{
+    display: none;
+   }
+   .portfolio-matcha .number.two{
+    display: none;
+
+   }
+
+    .tech-stack h3{
+        font-size:3rem ;
+    }
+
+    .tech-stack-icons{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .intro{
+        z-index: 2; 
+
+        p{
+            font-size: 3rem;
+            padding: 0px 0px 
+        }
+
+    }
+    
+
+    .contact{
+        .form{
+            padding: 0px;
+        }
+    }
+
+    
+
+}

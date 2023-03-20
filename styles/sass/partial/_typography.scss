@@ -1,0 +1,64 @@
+@use './variables' as *;
+
+
+.intro p{
+    font-family:$headerfont;
+    font-size: 6.5rem;
+    text-align: left;
+    letter-spacing: -0.024em; 
+}
+
+    
+p.blur-hidden{
+position: relative;
+z-index: 2; 
+text-align: right;
+}
+
+h2{
+    font-family:$headerfont;
+    font-size: 3.2rem;
+    color: #1d5238;
+    letter-spacing: -0.4px;
+    line-height: 91px;
+    font-weight: 300;
+}
+
+h3{
+    font-family:$headerfont;
+}
+.about-text {
+    p{
+        font-size: 0.9rem;
+        line-height: 23px;
+        letter-spacing: 0.04px;
+        font-weight: 300;
+    }
+}
+p{
+    font-family:$featurefont;
+    font-size: 0.9rem;
+    letter-spacing: 0.352px;
+    color:$primarycolor;
+}
+
+a{
+    font-family: $featurefont;
+    font-size: 0.85rem;
+    letter-spacing: -1.18px;
+    text-decoration:none;
+    font-weight: 900;
+}
+a, a:visited, a:hover, a:active {
+    color: #29368d;
+}
+
+
+
+.number{
+    font-family: "aktiv-grotesk-light", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 5rem;
+    color: #2e2e2c;
+}
