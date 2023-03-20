@@ -346,7 +346,8 @@ ul {
 .tech-stack .tech-stack-header img {
   width: 23%;
   position: absolute;
-  left: 700px;
+  left: 600px;
+  top: 40px;
 }
 .tech-stack h3 {
   font-size: 7.5rem;
